@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .body{
     display: flex; 
     justify-content: center;
@@ -137,3 +138,144 @@ h2{
     background-color: #630d6e;
 }
 
+=======
+.body{
+    display: flex; 
+    justify-content: center;
+    align-items: center;     
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;   
+    background-color: #f0f0f0;
+    background-image: url(Imagenes/Demiusar.jfif);
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.header{  
+    align-items: center; 
+    box-sizing:content-box;
+    height: 10%;
+    text-align: center;    
+    border:solid #9c9427 1px;
+    padding:30px;     
+    background-image: url(Imagenes/Demiusar.jfif);
+    background-size: cover;
+    height: fit-content;      
+}
+.nav-tabs{
+    display: flex;
+    box-sizing: content-box;
+    align-items:center;
+    justify-content: space-around;
+    border-style:groove;
+    background-image: url(Imagenes/placapcb.webp);
+    background-size: contain;  
+}
+.nav-items{
+    display: flex;
+    box-sizing: content-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    align-content:flex-start;  
+    box-sizing:content-box;
+    margin-top: 2px;
+    border:solid rgb(190, 176, 157);
+    padding: 10px;
+    height:50vi;
+    background-color:#cbd8d1; 
+    background-size:cover; 
+    background-image: url(Imagenes/Agroproductos.jpg);
+    background-origin:content-box;
+    overflow:hidden;  
+    
+}
+.aside{     
+    display: flex;
+    box-sizing: content-box;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: .5rem;                  
+    margin-left: .5rem;                        
+    box-shadow: inset 5px 0 5px -5px #aec0ca;            
+    box-sizing: border-box;
+    background-origin:border-box;
+    background-size:cover;
+    background-image: url(Imagenes/tractor.jpg);       
+}
+h2{
+    display: flex;
+    align-items: stretch;
+    justify-content:left;
+    color: rgb(164, 245, 44);    
+}
+.articulo{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-size: medium;  
+    color: whitesmoke;
+    
+}
+
+.tabla{
+    display: flex;
+    box-sizing: content-box;
+}
+.table-header{
+    display: flex;
+    box-sizing: content-box;
+    color: greenyellow;
+}
+.th{
+    display: flex;
+    box-sizing: content-box;
+    color: rgb(139, 233, 205);
+}
+.td{
+    display: flex;
+    box-sizing: content-box;
+    color: rgb(165, 248, 11);
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing:content-box;
+    height: 10%;
+    width: 92%;
+    margin-top: 2px;
+    border:solid #240ea1 1px;
+    padding: 30px;
+    background-color:#cbd8d1; 
+    background-size:cover;
+    background-image: url(Imagenes/Demiusar.jfif);
+    background-origin:border-box;
+    position: absolute;
+    
+}
+
+.etiqueta {
+    background-color: #1d0f9b;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    padding: 1px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+.etiqueta:hover {
+    background-color: #630d6e;
+}
+
+>>>>>>> 72df26b2cd5d5bc7f0defd25645861feb8a86753
